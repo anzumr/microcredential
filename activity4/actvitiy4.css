@@ -1,0 +1,174 @@
+.background{
+    width: 100%;
+    display: block;
+    animation: filter-animation 3s linear infinite;
+    background-size: cover;
+}
+
+@keyframes filter-animation {
+    0% {
+      filter: grayscale(100%);
+    }
+    50% {
+      filter: grayscale(0%);
+    }
+    100% {
+      filter: grayscale(100%);
+    }
+  }
+  .text {
+    position: relative;
+    bottom: 0px;
+    left: 50px;
+    font-size: 70px;
+    color: crimson;
+    animation: text-animation 25s ease-in;
+    animation-iteration-count: 1;
+  }
+  @keyframes text-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  .taxi{
+    width: 10%;
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    left: 0px;
+    animation-name: slideTaxi;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes slideTaxi{
+    from{transform: translateX(0);}
+    to{transform: translateX(1000%);}
+}
+  @keyframes heart-animation {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.75;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    75% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .heart1 {
+    top: 529px;
+    left: 464px;
+    width: 50px;
+    animation-delay: 30s;
+    position: absolute;
+    animation: heart-animation 1s linear infinite;
+  }
+
+  .heart2 {
+    top: 638px;
+    right: 150px;
+    width: 75px;
+    animation-delay: 32s;
+    position: absolute;
+    animation: heart-animation 2s linear infinite;
+  }
+
+  .heart3 {
+    top: 338px;
+    left: 297px;
+    width: 125px;
+    animation-delay: 34s;
+    position: absolute;
+    animation: heart-animation 3s linear infinite;
+  }
+
+  .heart4 {
+    top: 656px;
+    left: 837px;
+    width: 150px;
+    animation-delay: 36s;
+    position: absolute;
+    animation: heart-animation 1s linear infinite;
+  }
+  .heart5 {
+    top: 219px;
+    left: 726px;
+    width: 100px;
+    animation-delay: 38s;
+    position: absolute;
+    animation: heart-animation 2s linear infinite;
+  }
+  .heart6 {
+    top: 866px;
+    left: 935px;
+    width: 110px;
+    animation-delay: 34s;
+    position: absolute;
+    animation: heart-animation 3s linear infinite;
+  }
+  .heart7 {
+    top: 118px;
+    left: 772px;
+    width: 120px;
+    animation-delay: 34s;
+    position: absolute;
+    animation: heart-animation 1s linear infinite;
+  }
+  .heart8 {
+    top: 475px;
+    left: 511px;
+    width: 130px;
+    animation-delay: 34s;
+    position: absolute;
+    animation: heart-animation 2s linear infinite;
+  }
+  .heart9 {
+    top: 338px;
+    right: 243px;
+    width: 140px;
+    animation-delay: 34s;
+    position: absolute;
+    animation: heart-animation 3s linear infinite;
+  }
+  .heart10 {
+    top: 217px;
+    left: 961px;
+    width: 150px;
+    animation-delay: 34s;
+    position: absolute;
+    animation: heart-animation 1s linear infinite;
+  }
+  .heart11 {
+    top: 564px;
+    left: 666x;
+    width: 200px;
+    animation-delay: 34s;
+    position: absolute;
+    animation: heart-animation 2s linear infinite;
+  }
+  .heart12 {
+    top: 918px;
+    right: 286px;
+    width: 250px;
+    animation-delay: 34s;
+    position: absolute;
+    animation: heart-animation 3s linear infinite;
+  }
