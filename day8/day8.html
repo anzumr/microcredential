@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8 - Anzum Rahman</title>
+</head>
+<body>
+<h1>Anzum Rahman</h1>
+    <!-- JAVASCRIPT -->
+    <script>
+        /*
+        let firstName, lastName ;
+        let x = 100, y =-1.5, z = 7;
+        let boolean1 = true, boolean2 = false;
+        let name = null;
+
+        firstName = "Maria";
+        firstName = "Peter";
+
+        console.log('Hello there!');
+        console.log(firstName, y);
+        console.log('First name = ', firstName);
+        console.log(firstName + ' is my first name');
+        console.log(`${firstName} is my first name`);
+
+        let fullName = prompt('Please enter a name: ');
+        console.log(`The entered name is: ${fullName}`);
+
+        let num1 = parseInt( prompt('Enter numer 1: '));
+        let num2 = prompt('Enter number 2: ')
+        num2 = parseInt(num2);
+        let sum = num1 + num2;
+        let allUpperCase = fullName.toUpperCase();
+        console.log(allUpperCase)
+
+        let myString = "Queensborough Community College";
+        console.log(myString);
+        let stringLocation = myString.search('Col');
+        console.log(`The index location for Co is: ${stringLocation}`);
+
+        // Remove white space in a string
+        let name1 = '           William             Smith';
+
+        // Subtracting characters
+        let subWord = myString.substr(6,7);
+        console.log(subWord);
+
+        // first find the position of the word and trhen substract 5 characters from the word
+        let findFirst = myString.search('Com');
+        let subSec = myString.substr(findFirst,5);
+        console.log(subSec);
+
+        // ARRAYS
+        let fruits;
+        fruits = ["apples", "oranges", "grapes", "h"]
+
+        let cars = ["Nissan", "Tesla", "Mazda", "Mercedes"];
+        let mixedItems = [65, true, 'cats'];
+        console.log(cars);
+        console.log(mixedItems);
+
+        let countries = ["Canada", "USA", ["Mexico", "Colombia", "Peru"]];
+        console.log(countries);
+        console.log(countries[2][1]);
+
+        // create a copy of an array
+        let newItems = mixedItems; //direct copy: link update
+        let newItems = mixedItems.slice(); // male an independent copy: updates are not linked
+
+        // find the second character on a third item 'cats'
+        let indexCats = mixedItems.indexOf('cats')
+        let charCat = mixedItems[indexCats][1];
+*/
+        // ACTIVITY 5
+        // 1
+        console.log('Activity 5.1')
+        name = prompt("Enter your name:");
+        luckyNumber = prompt("Enter your lucky number:");
+        console.log("Welcome to the program " + name + ". Your lucky number is " + luckyNumber);
+        console.log(`Good Morning ${name}. Your entered number: ${luckyNumber}`);
+        // 2
+        word = prompt("Enter a word:");
+        console.log("The second letter of the word is: " + word.charAt(1));
+        console.log("The length of word " + word + " is " + word.length);
+        console.log(word.toUpperCase());
+        console.log("The last two characters of the word " + word + " is " + word.slice(-2));
+        // 3
+        mixedArray = [1, true, 'a', "hello", false];
+        console.log("Mixed array with initial values: " + mixedArray);
+        animal = prompt("Enter an animal:");
+        mixedArray.push(animal);
+        console.log("Mixed array with a new animal added to the end: " + mixedArray);
+        negativeNumber = prompt("Enter a negative number:");
+        mixedArray.unshift(negativeNumber);
+        console.log("Mixed array with a new negative number added to the front of the array: " + mixedArray);
+        copyArray = mixedArray.slice();
+        copyArray.reverse();
+        console.log("Mixed array " + mixedArray + " and reverse of copy array: " + copyArray);
+
+
+    </script>
+</body>
+</html>
