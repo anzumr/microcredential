@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - Anzum Rahman </title>
+    <link rel="stylesheet" href="project1.css">
+    <script src="project1.js"></script>
+</head>
+<body>
+    <div id="stockappdetails"class="modal">
+        <div class="modal_contents">
+          <div id="popupstockbackground" class="popupbackground Stockpopupbackgroundimage1">
+            <div id="close" class="close"></div>
+            <div id="popupleft" class="slider leftslider"><div class="sliderarrow leftarrow"></div> </div>
+            <div id="popupright" class="slider rightslider"> <div class="sliderarrow rightarrow"></div>  </div>
+          </div>
+  
+          <div class="popupbottom">
+            <div class="popupName">Stock Simulator Web App</div>
+            <div class="popuptechnology">React, Django, JavaScript, Python, HTML, CSS, Chartjs</div>
+            <hr>
+            <p class="popupdescription">
+              A web app that allows users to simulate buying and selling stocks.Users register and log into their 
+              accounts.They can search stocks up and get live stock prices with graphs of the stock at different time 
+              intervals. Users can monitor they history and they networth over time.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div id="searchingappdetails" class="modal">
+        <div class="modal_contents">
+          <div id="popupsearchingbackground" class="popupbackground searchprojectimg1">
+            <div id="close" class="close"></div>
+            <div id="popupleft" class="slider leftslider"><div class="sliderarrow leftarrow"></div> </div>
+            <div id="popupright" class="slider rightslider"> <div class="sliderarrow rightarrow"></div>  </div>
+          </div>
+  
+          <div class="popupbottom">
+            <div class="popupName">Visulaized Searching Algorithm</div>
+            <div class="popuptechnology">JavaScript, HTML, CSS</div>
+            <hr>
+            <p class="popupdescription">
+              This software allows users to visualize different searching algorithms. Users can choose one of the five algorithms. Then place the start and end point anywhere on the 
+              graph. Add blocks to increase complexity or pick from one of the premade mazes. Finally click visualize to watch the magic happen.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div id="sortingappdetails" class="modal">
+        <div class="modal_contents">
+          <div id="popupsortingbackground" class="popupbackground sortingprojectimg1">
+            <div id="close" class="close"></div>
+            <div id="popupleft" class="slider leftslider"><div class="sliderarrow leftarrow"></div> </div>
+            <div id="popupright" class="slider rightslider"> <div class="sliderarrow rightarrow"></div>  </div>
+          </div>
+  
+          <div class="popupbottom">
+            <div class="popupName">Visulaized Sorting Algorithm</div>
+            <div class="popuptechnology">JavaScript, HTML, CSS</div>
+            <hr>
+            <p class="popupdescription">
+              This software allows users to visualize different sorting algorithms.Users can choose one of the six algorithms. Users are also able to chane the size of the array and 
+              the speed of the visualization. A control panel is also given to allow users better notice the subtle changes in the list.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div id="tictactoeAppDetails" class="modal">
+        <div class="modal_contents">
+          <div id="popupTictactoeBackground" class="popupbackground tictactoeprojectimg1">
+            <div id="close" class="close"></div>
+            <div id="popupleft" class="slider leftslider"><div class="sliderarrow leftarrow"></div> </div>
+            <div id="popupright" class="slider rightslider"> <div class="sliderarrow rightarrow"></div>  </div>
+          </div>
+  
+          <div class="popupbottom">
+            <div class="popupName">Tic Tac Toe</div>
+            <div class="popuptechnology">Python, pygame</div>
+            <hr>
+            <p class="popupdescription">
+              This is a simple tic-tac-toe game using python and displayed using pygame. Users play against an AI which was implemented using a minimax algorithm.
+              However it might take a while if you're trying to win because the AI is impossible to beat.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div id="sudokuAppDetails" class="modal">
+        <div class="modal_contents">
+          <div id="popupSudokuBackground" class="popupbackground sudokuProjectImg1">
+            <div id="close" class="close"></div>
+            <div id="popupleft" class="slider leftslider"><div class="sliderarrow leftarrow"></div> </div>
+            <div id="popupright" class="slider rightslider"> <div class="sliderarrow rightarrow"></div>  </div>
+          </div>
+  
+          <div class="popupbottom">
+            <div class="popupName">Tic Tac Toe</div>
+            <div class="popuptechnology">Python, pygame</div>
+            <hr>
+            <p class="popupdescription">
+              A sudoku game made with python and displayed utilizing pygame library. Users can either try to solve the game themselves or press the solve button to 
+              watch the puzzle solve itself. The algorithm uses a backtracking algorithm to solve the puzzle.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <!--Home-->
+      <section id="Home" class="homepage">
+        <div class="greeting">
+          <div class="firstLine">
+            <span class="hello">Hello, I'm </span>
+            <span class="name"> Anzum Rahman</span>
+            <span class="hello">.</span>
+          </div>
+          <span class="hello secondLine">I'm a software engineer.</span>
+          <!--<a class="earse" href="#">
+            <div class=" btnLearnMore">Learn more about me!<i class="arrow"></i></div> <span>	&#129058;</span> 
+          </a>-->
+          <a class="btnLearnMorediv" href="#About">
+            <div class="btnLearnMorehover" >
+              <div id="homebtn" class=" btnLearnMore">Learn more about me! <div class="arrow"></div></div>
+            </div>
+          </a>
+        </div>
+      </section>
+      <!--navbar-->
+      <div class="navBar">
+        <div class="navBarOptions">
+          <a href="#Home"><div id="navbarhome" class="navBarLinks navBarOptionshighlighted">HOME</div></a>
+          <a href="#About"><div id="navbarabout" class="navBarLinks ">ABOUT</div></a>
+          <a href="#Projects"><div id="navbarprojects" class="navBarLinks">PROJECTS</div></a>
+          <a href="#Contact"><div id="navnarconnect" class="navBarLinks">CONNECT</div></a>
+        </div>
+      </div>
+      <!--About-->
+      <section id="About" class="About">
+  
+        <div id="aboutTitle" class="opac">
+          <div class="aboutTitleName">About Me</div>
+          <div class="aboutunderlineTitle"></div>
+        </div>
+  
+        <div class="aboutdiv">
+          <div id="aboutsection" class="opac">
+            <div class="aboutheader">Me</div>
+            <div class="headersubtitle">
+              <div class="leftedge"></div>
+              <div class="subtitle">who I am</div>
+              <div class="rightedge"></div>
+            </div>
+            <div >
+              <p class="aboutmetext"> 
+                Hi, I'm Anzum. I'm currently an 
+                undergradute student at New York City College of Technology
+                majoring in Computer Science,
+                Thus far, my primary focus 
+                has been in full stack web development. 
+                Currently, I'm working on challenging myself
+                with more difficult projects to fine-tune my 
+                skills as well as learning new technologies to 
+                grow as a developer.
+                <!-- Forward-thinking Software Engineer with background working productively in dynamic environments. Fluent in [Type] and 
+                [Type] programming languages used to develop software within [Industry]. Proud team player focused on achieving project objectives with speed and accuracy.-->
+              </p>
+            </div>
+            <a href="{% url 'resume' %}"><div class="resumebtn">Download Resume</div></a>
+          </div>
+  
+          <div id="aboutborder" class=""></div>
+  
+          <div id="skillsection" class="opac">
+            <div class="aboutheader">Skills</div>
+            <div class="headersubtitle">
+              <div class="leftedge"></div>
+              <div class="subtitle">what I know</div>
+              <div class="rightedge"></div>
+            </div>
+  
+            <div class="skills">
+  
+              <div class="skillbox">
+                <div class="skillname">Python</div>
+                <div class="skillpercentdiv">
+                  <div id="skillbar" class="filler "> </div>
+                  <div class="skillpercent" >80%</div>
+                </div>
+              </div>
+  
+              <div class="skillbox">
+                <div class="skillname">JavaScript</div>
+                <div class="skillpercentdiv">
+                  <div id="skillbar" class="filler "> </div>
+                  <div class="skillpercent" >70%</div>
+                </div>
+              </div>
+  
+              <div class="skillbox">
+                <div class="skillname">HTML</div>
+                <div class="skillpercentdiv">
+                  <div id="skillbar" class="filler "> </div>
+                  <div class="skillpercent" >70%</div>
+                </div>
+              </div>
+  
+              <div class="skillbox">
+                <div class="skillname">CSS</div>
+                <div class="skillpercentdiv">
+                  <div id="skillbar" class="filler "> </div>
+                  <div class="skillpercent" >30%</div>
+                </div>
+              </div>
+  
+              <div class="skillbox">
+                <div class="skillname">React</div>
+                <div class="skillpercentdiv">
+                  <div id="skillbar" class="filler "> </div>
+                  <div class="skillpercent" >60%</div>
+                </div>
+              </div>
+  
+              <div class="skillbox">
+                <div class="skillname">Django</div>
+                <div class="skillpercentdiv">
+                  <div id="skillbar" class="filler "> </div>
+                  <div class="skillpercent" >45%</div>
+                </div>
+              </div>
+  
+              <div class="skillbox">
+                <div class="skillname">C++</div>
+                <div class="skillpercentdiv">
+                  <div id="skillbar" class="filler "> </div>
+                  <div class="skillpercent" >25%</div>
+                </div>
+              </div>
+  
+              <div class="skillbox">
+                <div class="skillname">Java</div>
+                <div class="skillpercentdiv">
+                  <div id="skillbar" class="filler "> </div>
+                  <div class="skillpercent" >30%</div>
+                </div>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </section>
+         <!--Projects-->
+    <section id="Projects" class="Projects">
+
+        <div id="ProjectsTitle" class="opac">
+          <div id="projectsTitleName" class="projectsTitleName">Projects</div>
+          <div id="underlineTitle" class="underlineTitle"></div>
+        </div>
+  
+        <div class="projects">
+          <div class="individualProject">
+            <div id="individualProject" class=" StockSimulatorBackground "></div>
+            <div  class="opac projectOverlay--blur">
+              <div class="individualProjectTitle">Stock Simulator Web App</div>
+              <div class="projectlanguages">ReactJS, Django</div>
+              <div id="stockappbtn" class="projectBtn">Learn More</div>
+            </div>
+          </div>
+  
+          <div class="individualProject">
+            <div id="individualProject" class=" SearchingProjectBackground "></div>
+            <div class="opac projectOverlay--blur">
+              <div class="individualProjectTitle">Visual Searching Algorithms</div>
+              <div class="projectlanguages">JavaScript</div>
+              <div id="searchappbtn" class="projectBtn">Learn More</div>
+            </div>
+          </div>
+  
+          <div class="individualProject">
+            <div id="individualProject" class=" SortingProjectBackground "></div>
+            <div class="opac projectOverlay--blur">
+              <div class="individualProjectTitle">Visual Sorting Algorithms</div>
+              <div class="projectlanguages">JavaScript</div>
+              <div id="sortappbtn" class="projectBtn">Learn More</div>
+            </div>
+          </div>
+  
+          <div class="individualProject">
+            <div id="individualProject" class=" TicTacToeBackground "></div>
+            <div  class="opac projectOverlay--blur">
+              <div class="individualProjectTitle">Tic Tac Toe AI</div>
+              <div class="projectlanguages">Python</div>
+              <div id="tictactoeappbtn" class="projectBtn">Learn More</div>
+            </div>
+          </div>
+  
+          <div class="individualProject">
+            <div id="individualProject" class=" SudokuProjectBackground "></div>
+            <div class="opac projectOverlay--blur">
+              <div class="individualProjectTitle">Sudoku AI</div>
+              <div class="projectlanguages">Python</div>
+              <div id="sudokuappbtn" class="projectBtn">Learn More</div>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+  
+  
+      <!--Contact-->
+      <section id="Contact" class="Contact">
+  
+        <div id="contactTitle" class="opac">
+          <div class="contactTitleName">Contact Me</div>
+          <div class="contactunderlineTitle"></div>
+        </div>
+        
+        <form action="{% url 'main' %}" method="POST" id="contactform" class="opacity">
+          <div class="Thankyoumsg">I recieved your email and will respond shortly...</div>
+          <input name="message_email" class="contactnameemail" placeholder="Email" type="email"></input>
+          <input name="message_subject" class="contactnameemail" placeholder="Subject" type="text"></input>
+          <textarea name="message" class="contactmessage contactnameemail" placeholder="Message" type="text"></textarea>
+          <div class="contactSubmit">
+            <button class="contactsubmitbtn">Submit</button>
+          </div>
+        </form>
+    
+        <div class="divider">
+          <a href="#Home"><div class="scrollupbtn"></div></a>
+          <hr class="contactdivider">
+        </div>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/anzum-rahman-917a27172/" class="sociallink"><i class="fa fa-linkedin-square"></i></a>
+          <a href="https://github.com/anzumr" class="sociallink"><i class="fa fa-github "></i></a>
+        </div>
+</body>
+</html>
