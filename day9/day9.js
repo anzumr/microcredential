@@ -1,4 +1,5 @@
 console.log('Type your name');
+/*
 // if statement
 let day = true;
 let night = false;
@@ -107,7 +108,7 @@ if(name){
 else{
     console.log('You did not enter a name!')
 }
-
+*/
 // activity 6
 let userInput = prompt("Enter a value (string or number)");
 
