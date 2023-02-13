@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 19 - Anzum Rahman</title>
+</head>
+<body>
+    <h1>Anzum Rahman</h1>
+    <form action="{{url_for('thankyou')}}" method="post">
+        <fieldset>
+            <legend>
+                Collecting Weight and Height for BMI
+            </legend>
+            <div style="margin: 1em">
+                <label for="email">Enter email: </label>
+                <input type="email" id="email" placeholder="Enter an email address" name="email_address" required>
+            </div>
+            <div style="margin: 1em;">
+                <label for="height">Enter height: </label>
+                <input type="text" id="height" placeholder="Enter a height" name="height_name" required>
+
+            </div>
+            <div style="margin: 1em;">
+                <label for="Weight">Enter a Weight: </label>
+                <input type="text" id="Weight" placeholder="Enter a Weight" name="weight_name" required>
+            </div>
+            <div style="margin: 1em;">
+                <button type="button" name="button">SUBMIT</button>
+            </div>
+        </fieldset>
+
+
+    </form>
+        
+
+</body>
+</html>
